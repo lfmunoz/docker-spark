@@ -14,6 +14,7 @@ RUN apt-get update \
     vim-tiny \ 
  && ln -s /usr/bin/python3 /usr/bin/python \
  && easy_install3 pip py4j \
+ && easy_install3 pip nose \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 

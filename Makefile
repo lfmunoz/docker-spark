@@ -33,6 +33,10 @@ docker-pyspark:
 docker-test:
 	docker cp 
 
+docker-remote:
+	@docker run -it --name inquirefire_master_1 lfmunoz4/docker-spark /bin/bash
+
+
 
 ########################################################################################
 # End of file
